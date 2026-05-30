@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mansaapi"
+version = "0.1.0"
+description = "Official Python SDK for Mansa API — African market data, bank codes, location, and identity."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Pulsar Labs" }]
+requires-python = ">=3.8"
+keywords = ["africa", "african", "stock market", "bank codes", "nigeria", "ngx", "fintech", "api", "sdk"]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://mansaapi.com"
+Documentation = "https://mansaapi.com/docs"
+Repository = "https://github.com/HeyZod/mansaapi-python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mansaapi"]
