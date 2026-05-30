@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Official Python SDK for Mansa API — African market data, bank codes, location, and identity."
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Pulsar Labs" }]
+authors = [{ name = "Mansa Labs" }]
 requires-python = ">=3.8"
 keywords = ["africa", "african", "stock market", "bank codes", "nigeria", "ngx", "fintech", "api", "sdk"]
 dependencies = ["requests>=2.25"]
